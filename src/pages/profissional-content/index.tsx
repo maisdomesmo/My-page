@@ -1,8 +1,19 @@
 import Card from "../../components/card";
 import './style.css'
 import Img from '../../assets/foto.jpg';
+import ProjectCard from "../../components/project-card";
+import ProjectCardType from "../../types/ProjectCardType";
+import DecidaflixPrint  from '../../assets/decidaflixweb.png'
 
 function PersonalContent(){
+    const project1: ProjectCardType = {
+        name: 'DecidaFlix',
+        codeLink: 'https://github.com/maisdomesmo/decidaflix',
+        imgURL: DecidaflixPrint,
+        isDeployed: true,
+        siteLink: 'https://decidaflix.vercel.app/'
+    }
+
     return (
         <div className="container">
             <header>
@@ -13,10 +24,9 @@ function PersonalContent(){
                 </p>
             </header>
 
-            <img  src={Img} id="img" alt="Imagem do criador do site" />
-
             <main>
             <h1> Projetos: </h1>
+            <ProjectCard project={project1} />
             <h1> Cursos: </h1>
             <h1> Habilidades: </h1>
             </main>
