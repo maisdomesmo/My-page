@@ -16,3 +16,44 @@
 .card-container:hover .card-img{
     transform: translateX(20%);
 }
+.card-container:hover .project-info{
+    transform: translateX(0);
+    visibility: visible; 
+    opacity: 1;
+    transition: transform 2s, opacity 2s;
+}
+
+.project-info{
+    width: 18%;
+    position: absolute;
+    text-align: center;
+    transform: translateX(100%);
+    visibility: hidden;
+    opacity: 0;
+    transition: transform 2s, opacity 2s, visibility 2s;
+}
+.container-icon :nth-child(1n){
+    transform: translateX(500% );
+    transition: transform 4s;
+}
+.card-container:hover .container-icon :nth-child(1n){
+    transform: translateX(0);
+    transition: transform 4s;
+}
+
+.tecnology-icon {
+    width: 40px;
+    height: 40px;
+    transition: scale 0.6s, border-radius 0.6s,  box-shadow 0.6s ;
+}
+.tecnology-icon:hover {
+    scale: 1.2;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 50%;
+}
+
+.container-icon {
+    display: flex;
+    justify-content: space-around;
+}
+

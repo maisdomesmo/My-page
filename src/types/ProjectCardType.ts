@@ -4,6 +4,7 @@ type ProjectCardType = {
     siteLink: string;
     isDeployed: boolean;
     imgURL: string;
+    used: string[]
 }
 
 export default ProjectCardType;

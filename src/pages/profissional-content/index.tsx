@@ -1,9 +1,9 @@
 import Card from "../../components/card";
 import './style.css'
-import Img from '../../assets/foto.jpg';
 import ProjectCard from "../../components/project-card";
 import ProjectCardType from "../../types/ProjectCardType";
 import DecidaflixPrint  from '../../assets/decidaflixweb.png'
+import Icons from '../../assets/icons/exportIcons'
 
 function PersonalContent(){
     const project1: ProjectCardType = {
@@ -11,9 +11,10 @@ function PersonalContent(){
         codeLink: 'https://github.com/maisdomesmo/decidaflix',
         imgURL: DecidaflixPrint,
         isDeployed: true,
-        siteLink: 'https://decidaflix.vercel.app/'
+        siteLink: 'https://decidaflix.vercel.app/',
+        used: [Icons.css, Icons.html, Icons.javascript, Icons.react]
     }
-
+    
     return (
         <div className="container">
             <header>
