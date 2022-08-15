@@ -1,20 +1,14 @@
 import Card from "../../components/card";
 import './style.css'
 import ProjectCard from "../../components/project-card";
-import ProjectCardType from "../../types/ProjectCardType";
-import DecidaflixPrint  from '../../assets/decidaflixweb.png'
-import Icons from '../../assets/icons/exportIcons'
+import { Decidaflix, DoctorCare, PokeApp, PokeWeb } from "../../projects";
 
 function PersonalContent(){
-    const project1: ProjectCardType = {
-        name: 'DecidaFlix',
-        codeLink: 'https://github.com/maisdomesmo/decidaflix',
-        imgURL: DecidaflixPrint,
-        isDeployed: true,
-        siteLink: 'https://decidaflix.vercel.app/',
-        used: [Icons.css, Icons.html, Icons.javascript, Icons.react]
-    }
-    
+    const DecidaflixProject = Decidaflix;
+    const DoctorCareProject = DoctorCare;
+    const PokeAppProject = PokeApp;
+    const PokeWebProject = PokeWeb;
+
     return (
         <div className="container">
             <header>
@@ -27,7 +21,10 @@ function PersonalContent(){
 
             <main>
             <h1> Projetos: </h1>
-            <ProjectCard project={project1} />
+            <ProjectCard project={DecidaflixProject} />
+            <ProjectCard project={DoctorCareProject} />
+            <ProjectCard project={PokeAppProject} />
+            <ProjectCard project={PokeWebProject} />
             <h1> Cursos: </h1>
             <h1> Habilidades: </h1>
             </main>
