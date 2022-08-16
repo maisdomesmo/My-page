@@ -9,6 +9,9 @@ function CertificaationCard({ certification }: CertificationCardProps ){
     return (
         <div className='certification-container'>
             <img className='certification-img' style={{ height: '200px'}} src={certification.img} alt="" />
+            <div className='certification-info'>
+                
+            </div>
         </div>
     )
 }
