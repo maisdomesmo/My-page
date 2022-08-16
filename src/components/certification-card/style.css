@@ -1,0 +1,21 @@
+.certification-container{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: box-shadow 1.5s;
+    overflow: hidden;
+}
+
+.certification-container:hover .certification-img{
+    transform: translateY(-100%);
+    transition: transform 1s;
+}
+
+.certification-container:hover {
+    box-shadow: rgba(50, 135, 150, 0.25) 0px 14px 28px, rgba(16, 42, 114, 0.22) 0px 10px 10px;
+    transition: box-shadow 1.5s;
+}
+
+.certification-img{
+    transform: translateY(0);
+    transition: transform 2s;
+    position: relative;
+}
