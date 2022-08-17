@@ -2,6 +2,8 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition: box-shadow 1.5s;
     overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .certification-container:hover .certification-img{
@@ -20,16 +22,44 @@
     position: relative;
 }
 
-/* .certification-container:hover .certification-info{
-    transform: translateX(100%) translateY(-900%);
+.certification-container:hover .certification-info{
     transition: transform 2s;
-    animation: alternate;
 }
 
 .certification-info{
-    margin-block: 0;
-    transform: translateX(1800%) translateY(-100%);
-    transition: transform 2s;
     position: absolute;
-    z-index: -2;
-} */
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    gap: 10px;
+}
+.certification-container .certification-info :nth-child(1){
+    transform: translateX(0);
+    transition: transform 1.5s;
+}
+.certification-container .certification-info :nth-child(2){
+    transform: translateX(0);
+    transition: transform 1s;
+}
+.certification-container .certification-info :nth-child(3){
+    transform: translateX(0);
+    transition: transform 0.5s;
+}
+
+.certification-container:hover .certification-info :nth-child(1){
+    transform: translateX(100%);
+    transition: transform 0.5s;
+}
+.certification-container:hover .certification-info :nth-child(2){
+    transform: translateX(100%);
+    transition: transform 1s;
+}
+.certification-container:hover .certification-info :nth-child(3){
+    transform: translateX(100%);
+    transition: transform 1.5s;
+}
+
+.certification-tecnology {
+    height: 50px; 
+    width: 50px;
+}
