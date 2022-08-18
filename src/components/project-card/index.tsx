@@ -13,9 +13,9 @@ function ProjectCard({ project } : ProjectCardProps){
             <div className="project-info">
                 <h2>{project.name}</h2>
                 <p>
-                    {project.isDeployed ? <a target="_blank" href={project.siteLink}>Link do projeto</a> : null}
+                    {project.isDeployed ? <a className="card-link" target="_blank" href={project.siteLink}>Link do projeto</a> : null}
                     <br/>
-                    <a target="_blank" href={project.codeLink}>Link do código</a>
+                    <a className="card-link" target="_blank" href={project.codeLink}>Link do código</a>
                 </p>
         
                 <p className="card-description">{project.description}</p>

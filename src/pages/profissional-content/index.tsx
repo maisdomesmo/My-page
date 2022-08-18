@@ -18,13 +18,13 @@ function PersonalContent(){
 
             <main>
                 <h1> Projetos: </h1>
-                    <ProjectCard project={Decidaflix} />
-                    <ProjectCard project={DoctorCare} />
                     <ProjectCard project={PokeApp} />
+                    <ProjectCard project={DoctorCare} />
                     <ProjectCard project={PokeWeb} />
                     <ProjectCard project={SocialTree} />
                     <ProjectCard project={FeedWidget} />
                     <ProjectCard project={LetMeAsk} />
+                    <ProjectCard project={Decidaflix} />
                 <h1> Cursos: </h1>
                     <div className="courses-container" >
                         <CertificaationCard certification={Philips}/>

@@ -1,5 +1,5 @@
 .card-container{
-    background-color: hsla(0, 0%, 62%, 0.74);
+    background-color: #5fa59a;
     width: 90vw;
     height: 70vh;
     margin-inline: auto;
@@ -17,8 +17,8 @@
 }
 
 .card-container:hover{
-    box-shadow: rgba(50, 135, 150, 0.25) 0px 14px 28px, rgba(16, 42, 114, 0.22) 0px 10px 10px;
-    transition: box-shadow 1.5s;
+    box-shadow: #586b49 10px 10px 10px;
+    transition: box-shadow 0.6s;
 }
 
 .card-container:hover .card-img{
@@ -39,7 +39,6 @@
     visibility: hidden;
     opacity: 0;
     transition: transform 2s, opacity 2s, visibility 2s;
-
 }
 .container-icon :nth-child(1n){
     transform: translateX(500% );
@@ -68,5 +67,10 @@
 
 .card-description{
     margin-block: 50px;
+}
+
+.card-link{
+    color: blanchedalmond;
+    text-decoration: none;
 }
 
