@@ -9,3 +9,14 @@
     gap: 10vw;
 }
 
+.skills-container{
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
+    height: 300px;
+    justify-content: space-between;
+    gap: 115px;
+}
+
