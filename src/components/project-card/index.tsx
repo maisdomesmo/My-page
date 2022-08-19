@@ -1,6 +1,6 @@
 import ProjectCardType from "../../types/ProjectCardType";
 import './style.css'
-
+import Fade from 'react-reveal/Fade';
 
 type ProjectCardProps = {
     project: ProjectCardType
@@ -8,8 +8,8 @@ type ProjectCardProps = {
 
 function ProjectCard({ project } : ProjectCardProps){
     return (
+    <Fade bottom>
         <div className="card-container">
-            
             <div className="project-info">
                 <h2>{project.name}</h2>
                 <p>
@@ -31,6 +31,7 @@ function ProjectCard({ project } : ProjectCardProps){
             </div>
             <img className="card-img" src={project.imgURL} alt="" />
         </div>
+    </Fade>
     )
 }
 
