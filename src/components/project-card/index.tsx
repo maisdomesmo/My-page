@@ -11,7 +11,10 @@ function ProjectCard({ project } : ProjectCardProps){
     <Fade bottom>
         <div className="card-container">
             <div className="project-info">
-                <h2>{project.name}</h2>
+                <div className="project-name" > 
+                    <h2>{project.name}</h2>
+                    <span id="indicator" style={{backgroundColor: project.isDeployed ? '#00ff5f' : '#bc2020'}} />
+                </div>
                 <p>
                     {project.isDeployed ? <a className="card-link" target="_blank" href={project.siteLink}>Link do projeto</a> : null}
                     <br/>

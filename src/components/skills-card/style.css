@@ -1,20 +1,22 @@
 .skill-container{
     transform: scale(1);
     transition: transform 0.7s, box-shadow 0.7s;
+    border-radius: 50%;
 }
 
 .skill-container:hover{
     transform: scale(1.2);
-    box-shadow: 1.5px 1.5px 5px #ffe96e;  
+    box-shadow: 0 0 12px #d6cea3;  
     transition: transform 0.7s,  box-shadow 0.7s;
 }
 
 
 .skill-img{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+    height: 80px;
+    width: 80px;
     transform: rotate(-45deg);
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .skill-progress10{
