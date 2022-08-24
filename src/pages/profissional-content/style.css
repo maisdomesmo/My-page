@@ -1,6 +1,5 @@
 .container{
-    padding-left: 20px;
-    
+    padding: 0 20px;
 }
 
 .courses-container{
@@ -18,5 +17,14 @@
     height: 300px;
     justify-content: space-between;
     gap: 115px;
+}
+
+.container h1{
+    color: white;
+    text-shadow: 1.5px 1.5px 5px #000000;   
+}
+
+.text{
+    color: white;  
 }
 

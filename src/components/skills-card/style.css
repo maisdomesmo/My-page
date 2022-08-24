@@ -1,5 +1,14 @@
 .skill-container{
+    transform: scale(1);
+    transition: transform 0.7s, box-shadow 0.7s;
 }
+
+.skill-container:hover{
+    transform: scale(1.2);
+    box-shadow: 1.5px 1.5px 5px #ffe96e;  
+    transition: transform 0.7s,  box-shadow 0.7s;
+}
+
 
 .skill-img{
     height: 100px;
@@ -12,19 +21,19 @@
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    border-bottom: 5px solid rgb(10, 216, 10);
-    border-top: 5px solid rgb(10, 216, 10);
-    border-right: 5px solid rgb(10, 216, 10);
-    border-left: 5px solid rgb(10, 216, 10);
+    border-bottom: 5px solid #15d377;
+    border-top: 5px solid #15d377;
+    border-right: 5px solid #15d377;
+    border-left: 5px solid #15d377;
     transform: rotate(45deg);
 }
 .skill-progress7{
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    border-bottom: 5px solid rgb(130, 201, 10);
-    border-top: 5px solid rgb(140, 201, 10);
-    border-right: 5px solid rgb(150, 201, 10);
+    border-bottom: 5px solid #5b9c10;
+    border-top: 5px solid #5b9c10;
+    border-right: 5px solid #5b9c10;
     border-left: 5px solid grey;
     transform: rotate(45deg);
 }

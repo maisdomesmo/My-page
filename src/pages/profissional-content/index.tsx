@@ -17,7 +17,7 @@ function PersonalContent(){
             <Card/>
                 <Zoom left cascade>
                     <h1>Desenvolvedor Front-end e futuro desenvolvedor de jogos digitais</h1>
-                    <p>Procurando oportunidade no mercado da programação para desenvolver minhas 
+                    <p className="text" >Procurando oportunidade no mercado da programação para desenvolver minhas 
                     habilidades e evoluir enquanto profissional.
                     </p>
                 </Zoom>
