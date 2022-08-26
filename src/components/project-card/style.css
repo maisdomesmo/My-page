@@ -1,7 +1,7 @@
 .card-container{
-    background-color: #5fa59a;
-    width: 90vw;
-    height: 70vh;
+    background-color: #5f95a5;
+    width: 40vw;
+    height: 40vh;
     margin-inline: auto;
     overflow: hidden;
     margin-top: 50px;
@@ -11,45 +11,45 @@
 }
 
 .card-img{
-    width: 90vw;
-    height: 70vh;
-    transition: transform 2s;
+    transition: transform  0.7s;
 }
 
 .card-container:hover{
-    box-shadow: #586b49 10px 10px 10px;
+    box-shadow: #49546b 10px 10px 10px;
     transition: box-shadow 0.6s;
 }
 
 .card-container:hover .card-img{
-    transform: translateX(20%);
+    transform: translateX(100%);
 }
 .card-container:hover .project-info{
-    transform: translateX(8%);
+    transform: translateX(0);
     visibility: visible; 
     opacity: 1;
-    transition: transform 2s, opacity 2s;
+    transition: transform 0.7s, opacity 0.7s;
 }
 
 .project-info{
-    width: 18%;
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
     position: absolute;
     text-align: center;
     transform: translateX(100%);
     visibility: hidden;
     opacity: 0;
-    transition: transform 2s, opacity 2s, visibility 2s;
+    transition: transform  0.7s, opacity  0.7s, visibility  0.7s;
 }
 .container-icon :nth-child(1n){
     transform: translateX(500% );
-    transition: transform 4s;
+    transition: transform  0.7s;
 }
 .card-container:hover .container-icon :nth-child(1n){
     transform: translateX(0);
-    transition: transform 4s;
+    transition: transform  0.7s;
 }
 
-.tecnology-icon {
+.tecnology-icon {  
     width: 40px;
     height: 40px;
     transition: scale 0.6s, border-radius 0.6s,  box-shadow 0.6s ;
@@ -63,22 +63,30 @@
 .container-icon {
     display: flex;
     justify-content: space-around;
+    border: 2px solid black;
 }
 
 .card-description{
     text-align: center;
+    border: 2px solid black;
 }
 
 .card-link{
     color: blanchedalmond;
     text-decoration: none;
+    border: 2px solid black;
 }
 
 .project-name{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 22px;
     align-items: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    border: 2px solid black;
 }
 
 #indicator {

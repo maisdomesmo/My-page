@@ -32,7 +32,7 @@ function ProjectCard({ project } : ProjectCardProps){
                 }
                 </div>
             </div>
-            <img className="card-img" src={project.imgURL} alt="" />
+            <img className="card-img" style={{width: '100%', height: '100%'}} src={project.imgURL} alt="" />
         </div>
     </Fade>
     )

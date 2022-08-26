@@ -20,6 +20,12 @@
     padding-bottom: 30px;
 }
 
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .container h1{
     color: white;
     text-shadow: 1.5px 1.5px 5px #000000;   

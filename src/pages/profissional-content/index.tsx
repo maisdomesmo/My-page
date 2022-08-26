@@ -27,13 +27,15 @@ function PersonalContent(){
                 <Zoom left cascade>
                     <h1> Projetos: </h1>
                 </Zoom>
-                    <ProjectCard project={PokeApp} />
-                    <ProjectCard project={DoctorCare} />
-                    <ProjectCard project={PokeWeb} />
-                    <ProjectCard project={SocialTree} />
-                    <ProjectCard project={FeedWidget} />
-                    <ProjectCard project={LetMeAsk} />
-                    <ProjectCard project={Decidaflix} />
+                    <div className="projects-container">
+                        <ProjectCard project={PokeApp} />
+                        <ProjectCard project={DoctorCare} />
+                        <ProjectCard project={PokeWeb} />
+                        <ProjectCard project={SocialTree} />
+                        <ProjectCard project={FeedWidget} />
+                        <ProjectCard project={LetMeAsk} />
+                        <ProjectCard project={Decidaflix} />
+                    </div>
                 <Zoom left cascade>
                     <h1> Cursos: </h1>
                 </Zoom>

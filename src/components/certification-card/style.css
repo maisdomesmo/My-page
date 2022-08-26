@@ -12,7 +12,7 @@
 }
 
 .certification-container:hover {
-    box-shadow: #586b49 0px 14px 28px, #586b49 0px 10px 10px;
+    box-shadow: #49546b 0px 14px 28px, #49546b 0px 10px 10px;
     transition: box-shadow 0.6s;
 }
 
