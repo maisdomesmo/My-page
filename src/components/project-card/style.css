@@ -63,18 +63,19 @@
 .container-icon {
     display: flex;
     justify-content: space-around;
-    border: 2px solid black;
+    position: absolute;
+    width: 90%;
+    bottom: 10px;
+    margin-left: 8%;
 }
 
 .card-description{
     text-align: center;
-    border: 2px solid black;
 }
 
 .card-link{
     color: blanchedalmond;
     text-decoration: none;
-    border: 2px solid black;
 }
 
 .project-name{
@@ -86,7 +87,6 @@
     font-size: 20px;
     color: white;
     margin-top: 15px;
-    border: 2px solid black;
 }
 
 #indicator {
