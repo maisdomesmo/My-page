@@ -7,8 +7,7 @@ import { Decidaflix, DoctorCare, FeedWidget, LetMeAsk, PokeApp, PokeWeb, SocialT
 import { angular, bootstrap, css, git, github, html, java, javascript, node, react } from '../../skills'
 import { Orbi, Philips } from '../../certifications/index'
 import Zoom from 'react-reveal/Zoom';
-import Flip from 'react-reveal/Flip';
-import Bounce from 'react-reveal/Bounce';
+import Fade from 'react-reveal/Fade';
 
 function PersonalContent(){
     return (
@@ -39,30 +38,30 @@ function PersonalContent(){
                 <Zoom left cascade>
                     <h1> Cursos: </h1>
                 </Zoom>
-                <Flip top>
+                <Fade bottom>
                     <div className="courses-container" >
                         <CertificaationCard certification={Philips}/>
                         <CertificaationCard certification={Orbi} />
                     </div>
-                </Flip>
+                </Fade>
                 <Zoom left cascade>
                     <h1> Habilidades: </h1>
                 </Zoom>
                     <div className="skills-container">
-                    <Bounce top>
+                    <Fade bottom>
                         <SkillCard skill={html} />
                         <SkillCard skill={angular} />
                         <SkillCard skill={react} />
                         <SkillCard skill={bootstrap} />
                         <SkillCard skill={git} />
-                    </Bounce>
-                    <Bounce bottom>
+                    </Fade>
+                    <Fade bottom>
                         <SkillCard skill={github} />
                         <SkillCard skill={node} />
                         <SkillCard skill={css} />
                         <SkillCard skill={java} />
                         <SkillCard skill={javascript} />
-                    </Bounce>
+                    </Fade>
                     </div>
             </main>
         </div>
