@@ -63,6 +63,9 @@ function PersonalContent(){
                         <SkillCard skill={javascript} />
                     </Fade>
                     </div>
+                    <Zoom left cascade>
+                    <h1> Um pouco sobre mim: </h1>
+                    </Zoom>
             </main>
         </div>
         

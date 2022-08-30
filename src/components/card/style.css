@@ -7,16 +7,10 @@
     text-shadow: 1.5px 1.5px 5px #000000
 }
 
-.logo{
-    width: 110px;
-    height: 110px;
+.perfil-img{
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    border: 3px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    font-weight: 500;
 }
 
 .info{
