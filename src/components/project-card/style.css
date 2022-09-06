@@ -98,3 +98,10 @@
     position: relative;
     border: 1px black solid;
 }
+
+@media only screen and (max-width: 1000px) {
+    .card-container{
+        width: 90vw;
+        height: 100vh;
+    }
+}

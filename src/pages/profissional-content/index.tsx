@@ -3,7 +3,7 @@ import Card from "../../components/card";
 import ProjectCard from "../../components/project-card";
 import CertificaationCard from "../../components/certification-card";
 import SkillCard from "../../components/skills-card";
-import { Decidaflix, DoctorCare, FeedWidget, LetMeAsk, PokeApp, PokeWeb, SocialTree } from "../../projects";
+import { Decidaflix, DecidaflixMobile, DoctorCare, DoctorCareMobile, FeedWidget, LetMeAsk, PokeApp, PokeWeb, PokeWebMobile, SocialTree, SocialTreeMobile } from "../../projects";
 import { angular, bootstrap, css, git, github, html, java, javascript, node, react } from '../../skills'
 import { Orbi, Philips } from '../../certifications/index'
 import Zoom from 'react-reveal/Zoom';
@@ -28,12 +28,12 @@ function PersonalContent(){
                 </Zoom>
                     <div className="projects-container">
                         <ProjectCard project={PokeApp} />
-                        <ProjectCard project={DoctorCare} />
-                        <ProjectCard project={PokeWeb} />
-                        <ProjectCard project={SocialTree} />
+                        <ProjectCard project={window.screen.width > 1000 ? DoctorCare : DoctorCareMobile} />
+                        <ProjectCard project={window.screen.width > 1000 ? PokeWeb : PokeWebMobile} />
+                        <ProjectCard project={window.screen.width > 1000 ? SocialTree : SocialTreeMobile} />
                         <ProjectCard project={FeedWidget} />
                         <ProjectCard project={LetMeAsk} />
-                        <ProjectCard project={Decidaflix} />
+                        <ProjectCard project={window.screen.width > 1000 ? Decidaflix : DecidaflixMobile} />
                     </div>
                 <Zoom left cascade>
                     <h1> Cursos: </h1>

@@ -33,7 +33,7 @@ export const java: SkillsType = {
 
 export const github: SkillsType = {
     img:Icons.github,
-    value: 10
+    value: 7
 }
 
 export const git: SkillsType = {
