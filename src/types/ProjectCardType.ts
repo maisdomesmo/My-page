@@ -6,6 +6,7 @@ type ProjectCardType = {
     imgURL: string;
     used: string[];
     description: string;
+    mobile: string;
 }
 
 export default ProjectCardType;

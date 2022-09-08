@@ -16,16 +16,16 @@
     transition: box-shadow 0.6s;
 }
 
-.certification-img{
-    transform: translateY(0);
-    transition: transform 2s;
-    position: relative;
-}
 
 .certification-container:hover .certification-info{
     transition: transform 2s;
 }
 
+.certification-img{
+    transform: translateY(0);
+    transition: transform 2s;
+    position: relative;
+}
 .certification-info{
     position: absolute;
     display: flex;
@@ -64,7 +64,7 @@
     width: 50px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
 
     .certification-container .certification-img{
         transform: scale(2) translateX(14%) translateY(8%);

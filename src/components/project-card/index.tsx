@@ -13,7 +13,7 @@ function ProjectCard({ project } : ProjectCardProps){
             <div className="project-info">
                 <div className="project-name" > 
                     <h2>{project.name}</h2>
-                    <span id="indicator" style={{backgroundColor: project.isDeployed ? '#00ff5f' : '#bc2020'}} />
+                    <span id="indicator" style={{backgroundColor: project.isDeployed ? '#39ff14' : '#bc2020'}} />
                 </div>
                 <p>
                     {project.isDeployed ? <a className="card-link" target="_blank" href={project.siteLink}>Link do projeto</a> : null}
@@ -32,7 +32,7 @@ function ProjectCard({ project } : ProjectCardProps){
                 }
                 </div>
             </div>
-            <img className="card-img" style={{width: '100%', height: '100%'}} src={project.imgURL} alt="" />
+            <img className="card-img" style={{width: '100%', height: '100%'}} src={window.screen.width > 1000 ? project.imgURL : project.mobile} alt="" />
         </div>
     </Fade>
     )

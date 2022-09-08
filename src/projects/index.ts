@@ -11,6 +11,8 @@ import SocialTreeMobilePrint from '../assets/socialtreemobile.jpeg';
 import DoctorCareMobilePrint from '../assets/doctorcaremobile.jpeg';
 import DecidaflixMobilePrint from '../assets/decidaflixmobile.jpeg';
 import PokeWebMobilePrint from '../assets/pokewebmobile.png';
+import FeedWidgetMobilePrint from '../assets/feedwidgetmobile.png';
+import PokeAppMobilePrint from '../assets/pokeappmobile.jpeg';
 
 export const Decidaflix: ProjectCardType = {
     name: 'DecidaFlix',
@@ -19,17 +21,10 @@ export const Decidaflix: ProjectCardType = {
     isDeployed: true,
     siteLink: 'https://decidaflix.vercel.app/',
     used: [Icons.css, Icons.html, Icons.react],
-    description: "Desafio na plataforma da RocketSeat, design responsivo, consumindo a api The Movie Database API."
+    description: "Desafio na plataforma da RocketSeat, design responsivo, consumindo a api The Movie Database API.",
+    mobile: DecidaflixMobilePrint,
 }
-export const DecidaflixMobile: ProjectCardType = {
-    name: 'DecidaFlix',
-    codeLink: 'https://github.com/maisdomesmo/decidaflix',
-    imgURL: DecidaflixMobilePrint,
-    isDeployed: true,
-    siteLink: 'https://decidaflix.vercel.app/',
-    used: [Icons.css, Icons.html, Icons.react],
-    description: "Desafio na plataforma da RocketSeat, design responsivo, consumindo a api The Movie Database API."
-}
+
 
 export const PokeWeb :  ProjectCardType = {
     name: 'PokeWeb',
@@ -38,17 +33,10 @@ export const PokeWeb :  ProjectCardType = {
     isDeployed: false,
     siteLink: '',
     used: [Icons.html, Icons.css, Icons.react],
-    description: 'Meu primeiro projeto sozinho com ReactJs desenvolvido para praticar, consumindo a api PokéApi.'
+    description: 'Meu primeiro projeto sozinho com ReactJs desenvolvido para praticar, consumindo a api PokéApi.',
+    mobile: PokeWebMobilePrint  
 }
-export const PokeWebMobile :  ProjectCardType = {
-    name: 'PokeWeb',
-    codeLink: 'https://github.com/maisdomesmo/PokeWeb',
-    imgURL: PokeWebMobilePrint,
-    isDeployed: false,
-    siteLink: '',
-    used: [Icons.html, Icons.css, Icons.react],
-    description: 'Meu primeiro projeto sozinho com ReactJs desenvolvido para praticar, consumindo a api PokéApi.'
-}
+
 
 export const PokeApp:  ProjectCardType = {
     name: 'PokeApp',
@@ -57,7 +45,8 @@ export const PokeApp:  ProjectCardType = {
     isDeployed: false,
     siteLink: '',
     used: [Icons.html, Icons.css, Icons.react],
-    description: 'Projeto desenvolvido para praticar o que aprendi sobre React Native, criado com Expo e utilizando um backend desenvolvido por mim, para fazer todas e apenas as requisições necessárias de uma só vez, afim de otimizar a conexão.'
+    description: 'Projeto desenvolvido para praticar o que aprendi sobre React Native, criado com Expo e utilizando um backend desenvolvido por mim, para fazer todas e apenas as requisições necessárias de uma só vez, afim de otimizar a conexão.',
+    mobile: PokeAppMobilePrint,
 }
 
 export const DoctorCare:  ProjectCardType = {
@@ -67,16 +56,8 @@ export const DoctorCare:  ProjectCardType = {
     isDeployed: true,
     siteLink: 'https://maisdomesmo.github.io/DoctorCare/#home',
     used: [Icons.html, Icons.css, Icons.javascript],
-    description: 'Página desenvolvida no início dos meus estudos de desenvolvimento de web pages, durante uma NLW (evento da RocketSeat).'
-}
-export const DoctorCareMobile:  ProjectCardType = {
-    name: 'DoctorCare',
-    codeLink: 'https://github.com/maisdomesmo/DoctorCare',
-    imgURL: DoctorCareMobilePrint,
-    isDeployed: true,
-    siteLink: 'https://maisdomesmo.github.io/DoctorCare/#home',
-    used: [Icons.html, Icons.css, Icons.javascript],
-    description: 'Página desenvolvida no início dos meus estudos de desenvolvimento de web pages, durante uma NLW (evento da RocketSeat).'
+    description: 'Página desenvolvida no início dos meus estudos de desenvolvimento de web pages, durante uma NLW (evento da RocketSeat).',
+    mobile: DoctorCareMobilePrint
 }
 
 export const SocialTree:  ProjectCardType = {
@@ -86,19 +67,9 @@ export const SocialTree:  ProjectCardType = {
     isDeployed: true,
     siteLink: 'https://maisdomesmo.github.io/Social-Tree/',
     used: [Icons.html, Icons.css, Icons.javascript],
-    description: 'Uma página desenvolvida para servir como acesso à todos meus links sociais.'
+    description: 'Uma página desenvolvida para servir como acesso à todos meus links sociais.',
+    mobile: SocialTreeMobilePrint
 }
-
-export const SocialTreeMobile:  ProjectCardType = {
-    name: 'SocialTree',
-    codeLink: 'https://github.com/maisdomesmo/Social-Tree',
-    imgURL: SocialTreeMobilePrint,
-    isDeployed: true,
-    siteLink: 'https://maisdomesmo.github.io/Social-Tree/',
-    used: [Icons.html, Icons.css, Icons.javascript],
-    description: 'Uma página desenvolvida para servir como acesso à todos meus links sociais.'
-}
-
 
 export const FeedWidget:  ProjectCardType = {
     name: 'FeedWidget',
@@ -107,7 +78,8 @@ export const FeedWidget:  ProjectCardType = {
     isDeployed: false,
     siteLink: '',
     used: [Icons.html, Icons.css, Icons.react],
-    description: 'Um widget de feedback onde é possivel enviar um texto e um print da tela para um e-mail pre-estabelecido, também foi criado a versão mobile, ulilizando React Native e o expo.'
+    description: 'Um widget de feedback onde é possivel enviar um texto e um print da tela para um e-mail pre-estabelecido, também foi criado a versão mobile, ulilizando React Native e o expo.',
+    mobile: FeedWidgetMobilePrint,
 }
 
 export const LetMeAsk:  ProjectCardType = {
@@ -117,7 +89,8 @@ export const LetMeAsk:  ProjectCardType = {
     isDeployed: false,
     siteLink: '',
     used: [Icons.html, Icons.css, Icons.react],
-    description: 'Plataforma onde o usuário faz login com google e pode criar umas sala de perguntas e respostas em tempo real, ou entrar em uma.'
+    description: 'Plataforma onde o usuário faz login com google e pode criar umas sala de perguntas e respostas em tempo real, ou entrar em uma.',
+    mobile: LetMeAskPrint
 }
 
 
