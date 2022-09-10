@@ -1,6 +1,6 @@
 #card-container{
     display: flex;
-    gap: 15px;
+    justify-content: space-around;
     align-items: center;
     margin-top: 20px;
     color: white;
@@ -8,9 +8,10 @@
 }
 
 .perfil-img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .info{
@@ -30,4 +31,23 @@
     font-weight: 200;
     font-size: 16px;
     margin-block: 0;
+}
+
+.links-container{
+    background-color: grey;
+    display: flex;
+    gap: 15px;
+    width: max-content;
+    padding: 5px 20px;
+    border-radius: 15px;
+    
+}
+
+.links-container a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.links-container a:hover{
+    color: #0b1c23;
+    text-decoration: underline;
 }

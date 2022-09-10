@@ -63,6 +63,18 @@ function PersonalContent(){
                         <SkillCard skill={javascript} />
                     </Fade>
                     </div>
+                <Zoom left cascade>
+                    <h1> Mais sobre mim: </h1>
+
+                    <p className="text">
+                       Sempre fui apaixonado pelos mais diversos tipos de jogos, o que não sabia anteriormente era essa paixão 
+                    pelo desenvolvimento deles e pela programação em si, após perceber o quão me identifico com esse ramo, 
+                    mergulhei de cabeça e venho absorvendo conhecimento de diversas fontes cada dia mais, atualmente estou 
+                    cursando uma faculdade de jogos digitais e tenho estudado programação e me aprofundando na linguagem JavaScript
+                    desenvolvendo alguns projetos utilizando ReactJs e o React Native. Atualmente busco uma oportunidade para que 
+                    possa me desenvolver como um profissional no ramo da programação.
+                    </p>
+                </Zoom>
             </main>
         </div>
         

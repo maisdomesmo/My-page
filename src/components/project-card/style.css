@@ -1,7 +1,7 @@
 .card-container{
-    background-color: #ff9505;
-    width: 40vw;
-    height: 40vh;
+    background-color: grey;
+    width: 44vw;
+    height: 44vh;
     margin-inline: auto;
     overflow: hidden;
     margin-top: 50px;
@@ -76,6 +76,10 @@
 .card-link{
     color: blanchedalmond;
     text-decoration: none;
+}
+.card-link:hover{
+    text-decoration: underline;
+    color: #0b1c23;
 }
 
 .project-name{
