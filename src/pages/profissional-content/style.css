@@ -35,6 +35,10 @@
     color: white;  
 
 }
+/* 
+#aboutme :target{
+    scroll-margin-top: 100px;
+} */
 
 @media only screen and (max-width: 900px) {
     .courses-container{
@@ -42,6 +46,10 @@
         flex-direction: column;
         justify-content: center;
         gap: 10vw;
+    }
+
+    .skills-container{
+        justify-content: center;
     }
     
   }

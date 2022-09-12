@@ -20,7 +20,7 @@ function Card(){
                 <LightSpeed left>
                     <div className="links-container">
                             <a target="_blank" href="https://drive.google.com/file/d/1e8Jc4HwG74p4dqnVNllrt0ljH5rzz4h_/view?usp=sharing">Baixar curriculo</a>
-                            <a href="">Mais sobre mim</a>
+                            <a href="#aboutme">Mais sobre mim</a>
                     </div>
 
                 </LightSpeed>

@@ -8,6 +8,7 @@ import { angular, bootstrap, css, git, github, html, java, javascript, node, rea
 import { Orbi, Philips } from '../../certifications/index'
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
+import SoftSkill from '../../components/soft-skills';
 
 function PersonalContent(){
     return (
@@ -45,7 +46,7 @@ function PersonalContent(){
                     </div>
                 </Fade>
                 <Zoom left cascade>
-                    <h1> Habilidades: </h1>
+                    <h1> Hard Skills: </h1>
                 </Zoom>
                     <div className="skills-container">
                     <Fade bottom>
@@ -54,8 +55,6 @@ function PersonalContent(){
                         <SkillCard skill={react} />
                         <SkillCard skill={bootstrap} />
                         <SkillCard skill={git} />
-                    </Fade>
-                    <Fade bottom>
                         <SkillCard skill={github} />
                         <SkillCard skill={node} />
                         <SkillCard skill={css} />
@@ -64,7 +63,21 @@ function PersonalContent(){
                     </Fade>
                     </div>
                 <Zoom left cascade>
-                    <h1> Mais sobre mim: </h1>
+                    <h1> Soft Skills: </h1>
+                </Zoom>
+                    <div className="softskills-container">
+                        <Fade bottom>
+                            <SoftSkill name='Comunicação' value={10}/> 
+                            <SoftSkill name='Trabalho em equipe' value={10} />
+                            <SoftSkill name='Autonomia' value={10} />
+                            <SoftSkill name='Criatividade' value={10} />
+                            <SoftSkill name='Aprendizado contínuo' value={10} />
+                            <SoftSkill name='Capacidade de inovação' value={10} />
+                            <SoftSkill name='Comprometimento' value={10} />
+                        </Fade>
+                    </div>
+                <Zoom left cascade>
+                    <h1 id='aboutme' > Mais sobre mim: </h1>
 
                     <p className="text">
                        Sempre fui apaixonado pelos mais diversos tipos de jogos, o que não sabia anteriormente era essa paixão 
@@ -72,7 +85,7 @@ function PersonalContent(){
                     mergulhei de cabeça e venho absorvendo conhecimento de diversas fontes cada dia mais, atualmente estou 
                     cursando uma faculdade de jogos digitais e tenho estudado programação e me aprofundando na linguagem JavaScript
                     desenvolvendo alguns projetos utilizando ReactJs e o React Native. Atualmente busco uma oportunidade para que 
-                    possa me desenvolver como um profissional no ramo da programação.
+                    possa me desenvolver como programador.
                     </p>
                 </Zoom>
             </main>
