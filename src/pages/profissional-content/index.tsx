@@ -67,13 +67,13 @@ function PersonalContent(){
                 </Zoom>
                     <div className="softskills-container">
                         <Fade bottom>
-                            <SoftSkill name='Comunicação' value={10}/> 
-                            <SoftSkill name='Trabalho em equipe' value={10} />
-                            <SoftSkill name='Autonomia' value={10} />
+                            <SoftSkill name='Comunicação' value={9.8}/> 
+                            <SoftSkill name='Trabalho em equipe' value={9} />
+                            <SoftSkill name='Autonomia' value={9.5} />
                             <SoftSkill name='Criatividade' value={10} />
-                            <SoftSkill name='Aprendizado contínuo' value={10} />
-                            <SoftSkill name='Capacidade de inovação' value={10} />
-                            <SoftSkill name='Comprometimento' value={10} />
+                            <SoftSkill name='Aprendizado contínuo' value={8.9} />
+                            <SoftSkill name='Capacidade de inovação' value={9} />
+                            <SoftSkill name='Comprometimento' value={10}/>
                         </Fade>
                     </div>
                 <Zoom left cascade>
