@@ -4,6 +4,7 @@
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
+   
 }
 
 .certification-container:hover .certification-img{

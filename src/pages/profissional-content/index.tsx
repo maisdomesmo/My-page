@@ -69,14 +69,14 @@ function PersonalContent(){
                         <Fade bottom>
                             <SoftSkill name='Comunicação' value={9.8}/> 
                             <SoftSkill name='Trabalho em equipe' value={9} />
-                            <SoftSkill name='Autonomia' value={9.5} />
+                            <SoftSkill name='Autonomia' value={9} />
                             <SoftSkill name='Criatividade' value={10} />
                             <SoftSkill name='Aprendizado contínuo' value={8.9} />
-                            <SoftSkill name='Capacidade de inovação' value={9} />
+                            <SoftSkill name='Capacidade de inovação' value={8.5} />
                             <SoftSkill name='Comprometimento' value={10}/>
                         </Fade>
                     </div>
-                <Zoom left cascade>
+                <Fade bottom>
                     <h1 id='aboutme' > Mais sobre mim: </h1>
 
                     <p className="text">
@@ -87,7 +87,7 @@ function PersonalContent(){
                     desenvolvendo alguns projetos utilizando ReactJs e o React Native. Atualmente busco uma oportunidade para que 
                     possa me desenvolver como programador.
                     </p>
-                </Zoom>
+                </Fade>
             </main>
         </div>
         

@@ -15,7 +15,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 90vw;
-    justify-content: space-between;
+    justify-content: center;
     gap: 115px;
     padding-bottom: 30px;
 }
